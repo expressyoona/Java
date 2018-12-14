@@ -1,6 +1,6 @@
 # How to play this game
 1. Configure server's IP(Line 300 in TTTClient.java). If server run on your computer, you don't need change the host.
-2. Run command lines below into this folder(Must be in order):
+1. Run command lines below into this folder(Must be in order):
 - Server:
   + javac TTTServer.java
   + java TTTServer
