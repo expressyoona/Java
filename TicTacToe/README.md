@@ -8,4 +8,4 @@ How to play this game
 + javac TTTClient
 + java TTTClient
 - After each match, server will save the result in result.txt file on the folder that server locate.
-- Remember: Terminate the server if you don't receive the "Port is already in use" error.
+- Remember: Terminate the server if you don't want to receive the "Port is already in use" error.
