@@ -1,7 +1,3 @@
-package TTT;
-
-
-
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.Image;
@@ -45,7 +41,7 @@ class TTTSender extends JFrame implements ActionListener, Runnable {
         //Game interface
         this.setTitle("Tic Tac Toe PvP Online");
         this.getContentPane();
-        Image icon = Toolkit.getDefaultToolkit().getImage("F:\\IT\\Java\\Networking\\iconTTT.png");
+        Image icon = Toolkit.getDefaultToolkit().getImage("iconTTT.png");
         this.setIconImage(icon);
         this.setLayout(new BorderLayout());
         panel = new JPanel(new GridLayout(3, 3));
@@ -64,8 +60,8 @@ class TTTSender extends JFrame implements ActionListener, Runnable {
         }
         sendPoint("New Player");
         ctr = 0;
-        cross = new ImageIcon("F:\\IT\\Java\\Networking\\crossmark.png");
-        zero = new ImageIcon("F:\\IT\\Java\\Networking\\checkmark.png");
+        cross = new ImageIcon("crossmark.png");
+        zero = new ImageIcon("checkmark.png");
         p1 = 0;
         p2 = 0;
         player1 = new JLabel("You: " + p1);
