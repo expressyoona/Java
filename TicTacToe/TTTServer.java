@@ -71,7 +71,6 @@ public class TTTServer extends Thread {
                     } else if (k == 1) {
                         data = "Not you".getBytes();
                         //If k == 1 then both 2 player are connected! Permit start game.
-                        
                     }
                     packet = new DatagramPacket(data, data.length, packet.getAddress(), packet.getPort());
                     socket.send(packet);
@@ -91,7 +90,7 @@ public class TTTServer extends Thread {
                     saveResult();
                     System.out.println(rs);
                 }
-                System.out.println("Player " + clientAddresses.indexOf(clientAddress) + 1 + ": " + content);
+                //System.out.println("Player " + clientAddresses.indexOf(clientAddress) + 1 + ": " + content);
                 byte[] data = (content).getBytes();
                 for (int i = 0; i < clientAddresses.size(); i++) {
                     InetAddress cl = clientAddresses.get(i);
