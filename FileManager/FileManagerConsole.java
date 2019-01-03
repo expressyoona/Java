@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import org.apache.commons.io.FileUtils;
 
-public class FileExplorerConsole {
+public class FileManagerConsole {
 
 	Scanner kb;
 	String command;
@@ -273,7 +273,7 @@ public class FileExplorerConsole {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		new FileExplorerConsole();
+		new FileManagerConsole();
 	}
 
 
